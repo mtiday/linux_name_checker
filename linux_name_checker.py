@@ -86,4 +86,5 @@ def build_desktop_file(list_to_check):
 
 
 #start the program
-start()
+if __name__ == "__main__":
+    start()
