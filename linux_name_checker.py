@@ -85,5 +85,5 @@ def build_desktop_file(list_to_check):
         print('There were no names that would conflict in Windows')
 
 
-#start the program eee
+#start the program
 start()
