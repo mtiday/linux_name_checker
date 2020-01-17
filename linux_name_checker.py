@@ -1,15 +1,21 @@
-'''This program crawls through a directory and lets you know if there are
+''' file name checker for Windows
+
+This program crawls through a directory and lets you know if there are
 names that will be considered duplicates in Windows. i.e. two folders named
 example and Example in Linux would be the same folder in Windows. Therefore
 if you copied this directory from Linux to Windows not everything would
-copy. I have had issues with SpiderOak backing up files from Linux to Widows
-and visa-versa. Michael Tiday mtiday@tidayventures.com'''
+copy. I have had issues with SpiderOak backing up files from Linux to Windows
+and visa-versa. 
+
+Michael Tiday mtiday@tidayventures.com
+'''
+
 import os
 #Create Global variables
 GLOBAL_DIRECTORY_TO_SCAN = ''
 
 def start():
-    '''This function starts the program. Gets the directory to scan'''
+    '''This function starts the program. Gets the directory to scan.'''
     # Create a loop so the user has unlimited attempts to get the path correct
     while True:
         print('\nPlease enter a directory to scan for names that '
@@ -35,11 +41,19 @@ def start():
             GLOBAL_DIRECTORY_TO_SCAN = directory_to_scan
             directory_crawler(directory_to_scan)
         except FileNotFoundError:
-            print(f'\n\'{directory_to_scan}\' isn\'t a valid path\n'
-                  'Please try again')
+            print(f"\n'{directory_to_scan}' is not a valid path\nPlease try again.")
 
 def directory_crawler(top_folder):
-    '''This function does the 'work' it will scan the directory and sub-directories'''
+    '''Builds a list of file and directory names for duplicate checking.
+    
+    This function does the 'work' it will scan the directory and sub-directories
+    
+    :param str top_folder: filesystem path to begin working in
+
+    Raises:
+    - SystemExit on completion
+
+    '''
     # create the needed lists:
     # list of all scanned directories and files
     directories_and_files = []
@@ -69,8 +83,11 @@ def directory_crawler(top_folder):
     raise SystemExit()
 
 def build_desktop_file(list_to_check):
-    '''This function creates a list of "Windows" duplicates.
-    Then saves the list as a file on the Desktop'''
+    '''Given a list of "Windows" duplicate names, saves the list to 
+    a file on the Desktop.
+    
+    :param list list_to_check:
+    '''
     #clean list a little, removing '.'
     list_to_check = [entries.replace('.', '"\n"') for entries in list_to_check]
     # Create file on Desktop with possible duplicates, if applicable
