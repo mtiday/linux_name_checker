@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6d8ac85-7487-4628-8ea9-cccdbf08c578" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="windows_name_error_finder" />
+  </component>
+  <component name="ProjectId" id="1V0Cf2gjLIJs07h2ldTw87uXylE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pycharm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="source" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="windows_name_error_finder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.source" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6d8ac85-7487-4628-8ea9-cccdbf08c578" name="Default Changelist" comment="" />
+      <created>1576380724490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576380724490</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1207" height="241" key="GridCell.Tab.0.bottom" timestamp="1576722193475">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1207" height="241" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1576722193475" />
+    <state width="1207" height="206" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.1024@1280.0.1280.1024" timestamp="1576636926389" />
+    <state width="1207" height="241" key="GridCell.Tab.0.center" timestamp="1576722193475">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1207" height="241" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1576722193475" />
+    <state width="1207" height="206" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.1024@1280.0.1280.1024" timestamp="1576636926389" />
+    <state width="1207" height="241" key="GridCell.Tab.0.left" timestamp="1576722193474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1207" height="241" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1576722193474" />
+    <state width="1207" height="206" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.1024@1280.0.1280.1024" timestamp="1576636926389" />
+    <state width="1207" height="241" key="GridCell.Tab.0.right" timestamp="1576722193475">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1207" height="241" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1576722193475" />
+    <state width="1207" height="206" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.1024@1280.0.1280.1024" timestamp="1576636926389" />
+    <state x="477" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1577851773831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="318" y="340" key="com.intellij.ide.util.TipDialog/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1576721573465" />
+    <state x="318" y="340" key="com.intellij.ide.util.TipDialog/0.0.1280.984/1280.0.1280.1024@1280.0.1280.1024" timestamp="1576380771720" />
+    <state x="477" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577851773831" />
+  </component>
+</project>
