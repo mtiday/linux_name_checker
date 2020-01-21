@@ -88,10 +88,9 @@ def directory_crawler(top_folder):
 def build_desktop_file(duplicates, directory_to_scan):
     """Given a list of "Windows" duplicate names, will save the list to
     a file on the Desktop.
-    :param:
-    list duplicates: any duplicates will be stored here
-    directory_to_scan: Folder that was scanned to be saved in .txt file
-    """
+    :param: List duplicates: any duplicates will be stored here
+    :param: List directory_to_scan: the directory that was scanned for duplicates"""
+
     os.chdir(os.path.expanduser('~/Desktop'))
     with open('Problem name(s) in Windows.txt', 'w') as problem_names:
         problem_names.write(f'The conflict(s) below were found scanning directory '
