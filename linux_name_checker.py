@@ -10,10 +10,11 @@ Michael Tiday mtiday@tidayventures.com
 import os
 import time
 
+
 def start():
     """This function starts the program. Gets the directory to scan."""
     # Create loop, user has unlimited attempts to get the path correct
-    if os.name == 'nt': # Windows OS
+    if os.name == 'nt':  # Windows OS
         print("\nThis program is meant to be ran on non-Windows OS."
               "\nClosing the program.")
         exit_program()
