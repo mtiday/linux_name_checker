@@ -1,11 +1,9 @@
-"""file name checker for Windows
-
+"""File name checker for Windows
 This program crawls through a directory and lets you know if there are
-names that will be considered duplicates in Windows. i.e. two folders named
-example and Example in Linux would be the same folder in Windows. Therefore
-if you copied this directory from Linux to Windows not everything would
-copy. I have had issues with SpiderOak backing up files from Linux to Windows
-and visa-versa.
+names that will be considered duplicates in Windows. i.e. two folders
+named example and Example in Linux would be the same folder in Windows.
+Therefore if you copied this directory from Linux to Windows not
+everything would copy.
 Michael Tiday mtiday@tidayventures.com
 """
 
@@ -14,7 +12,7 @@ import os
 
 def start():
     """This function starts the program. Gets the directory to scan."""
-    # Create a loop so the user has unlimited attempts to get the path correct
+    # Create loop, user has unlimited attempts to get the path correct
     while True:
         print('\nPlease enter a directory to scan for names that '
               'would be considered invalid duplicate in Windows.'
@@ -42,8 +40,8 @@ def start():
 
 
 def directory_crawler(top_folder):
-    """Builds a list of file and directory names for duplicate checking.
-    This function does the 'work' it will scan the directory and sub-directories
+    """Builds a list of file and directory names for duplicate
+    checking. Scans the directory and sub-directories of the top_folder
     :param str top_folder: filesystem path to begin working in
 
     Raises:
@@ -89,7 +87,9 @@ def build_desktop_file(duplicates, directory_to_scan):
     """Given a list of "Windows" duplicate names, will save the list to
     a file on the Desktop.
     :param: List duplicates: any duplicates will be stored here
-    :param: List directory_to_scan: the directory that was scanned for duplicates"""
+    :param: List directory_to_scan:
+    the directory that was scanned for duplicates
+    """
 
     os.chdir(os.path.expanduser('~/Desktop'))
     with open('Problem name(s) in Windows.txt', 'w') as problem_names:
